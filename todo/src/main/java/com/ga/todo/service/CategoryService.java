@@ -3,7 +3,10 @@ package com.ga.todo.service;
 import com.ga.todo.exception.InformationExistException;
 import com.ga.todo.exception.InformationNotFoundException;
 import com.ga.todo.model.Category;
+import com.ga.todo.model.Item;
 import com.ga.todo.repository.CategoryRepository;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.OneToMany;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -74,4 +77,5 @@ public class CategoryService {
             return category;
         }
     }
+
 }
