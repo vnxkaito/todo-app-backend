@@ -2,6 +2,7 @@
 [Repository Link](https://github.com/vnxkaito/todo-app-backend)
 
 ### Design decisions
+Endpoints exactly as requested in specifications.
 Where needed, a search will be made to make sure it is allowed to do the requested action.
 
 ### Challenges faced
